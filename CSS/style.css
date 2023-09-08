@@ -1,0 +1,141 @@
+/*font-family: 'Shadows Into Light', cursive; estilo de letra a usar*/
+/*desktop*/
+@media only screen and (min-width:978px) {
+    .letra-letra{
+        background-color: rgb(255, 243, 218);
+    }
+}
+.letra-letra{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 16px;
+}
+/*header*/
+.header{
+    position: sticky;
+}
+.logtip {
+    height: 8rem;
+    width: 15rem;
+}
+.nav-link{
+    font-size: 2rem;
+}
+.naa{
+    padding: 1rem;
+}
+.nab{
+    padding: 1rem;
+}
+.nac{
+    padding: 1rem;
+}
+.nad{
+    padding: 1rem;
+}
+/*contenido*/
+.grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20rem 20rem;
+    margin: 2.5rem;
+    justify-content: center;
+    background-color: rgb(254, 255, 172);
+}
+.uno{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    grid-row: 1/ span 2;
+}
+.dos{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    grid-row: 1/ span 2;
+    grid-column: 2/3;
+    align-items: center;
+}
+.sobres{
+    height: 20rem;
+    width: 100%;
+}
+.tres{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.cuatro{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+/*Data*/
+.data{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(69, 255, 202);
+    height: 7rem;
+    width: 100%;
+    text-align: center;
+    margin: 2rem;
+}
+.icono{
+    height: 5rem;
+    width: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: center;
+}
+/*escrito*/
+.escrito{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.x{
+    width: 100%;
+    height: 7rem;
+    background-color: rgb(69, 255, 202);
+    margin: 2rem;
+}
+/*edit de contacto*/
+/*maps contacto*/
+.fot{
+    display: flex;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25rem 20rem;
+    margin: 2.5rem;
+    justify-content: space-around;
+    background-color: rgb(254, 255, 172);
+}
+.coment{
+    display: flex;
+}
+.maps{
+    display: flex;
+}
+.texarea{
+    text-align: center;
+    width: 30rem;
+}
+/*redes*/
+.whatsapp{
+    height: 3.125rem;
+    width: 3.125rem;
+}
+/*mobile*/
+@media only screen and (max-width:480px) {
+    .letra-letra{
+        background-color: rgb(223, 204, 251);
+    }    
+    /*header*/
+    /*data*/
+    .data{
+        flex-direction: column;
+        height: 17rem;  
+    }
+
+
+}
+
