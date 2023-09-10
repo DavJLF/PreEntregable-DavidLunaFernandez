@@ -64,12 +64,14 @@
     width: 100%;
     text-align: center;
     margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 .cuatro{
     height: 100%;
     width: 100%;
     text-align: center;
     margin-top: 1rem;
+    font-size: 1.5rem;
 }
 /*Data*/
 .data{
@@ -79,7 +81,6 @@
     height: 7rem;
     width: 100%;
     text-align: center;
-    margin: 2rem;
 }
 .icono{
     height: 5rem;
@@ -93,19 +94,26 @@
     font-size: 1.5rem;
     text-align: center;
 }
+.subt1{
+    text-decoration-color: rgb(39, 0, 93);
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: 'Borel';
+}
 .x{
+    font-size: 1.5rem;
+    text-align: center;
     width: 100%;
     height: 7rem;
     background-color: rgb(69, 255, 202);
-    margin: 2rem;
 }
 /*edit de contacto*/
 /*maps contacto*/
-.fot{
+.fot{ /* funciona en empresa*/
     display: flex;
     grid-template-columns: 50% 50%;
     grid-template-rows: 25rem 20rem;
-    margin: 2.5rem;
+    margin: 2rem;
     justify-content: space-around;
     background-color: rgb(254, 255, 172);
 }
@@ -114,28 +122,108 @@
 }
 .maps{
     display: flex;
-}
-.texarea{
-    text-align: center;
-    width: 30rem;
+    margin-left: 2rem;
 }
 /*redes*/
-.whatsapp{
-    height: 3.125rem;
-    width: 3.125rem;
+.face-ints{
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
 }
+.socialmedia{
+    list-style: none;
+}
+/*empresa data*/
+
+.text{
+    text-decoration: underline;
+
+}
+
+
 /*mobile*/
 @media only screen and (max-width:480px) {
     .letra-letra{
         background-color: rgb(223, 204, 251);
+        font-size: 8rem;
+        padding: 10px;
     }    
     /*header*/
+    /*contenido*/
+    .grid-container{
+        display: flex;    
+        flex-direction: column;   
+    }
+    .sobres{
+        height: 20rem;
+        width: 100%;
+    }
+    .uno{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .dos{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .sobres{
+        height: 20rem;
+        width: 100%;
+    }
+    .tres{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .cuatro{
+        height: 100%;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
     /*data*/
     .data{
         flex-direction: column;
         height: 17rem;  
     }
-
+    .icono{
+        margin: 1rem;
+    }
+    /*escrito*/
+    .escrito{
+        font-size: 1.5rem;
+    }
+    .x{
+        margin: 0rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    /*edit de contacto*/
+    .fot{
+        margin: 0rem;
+        font-size: 1.5rem;
+    }
+    .coment{
+        flex-direction: column;
+        height: 60rem;
+        width: 100%;
+    }
+    .areacoment{
+        max-width: 29rem;
+    }
+    .socialmedia{
+        text-align: center;
+        padding: 0rem;
+    }
+    .face-ints{
+        width: 5rem;
+        height: 5rem;
+    }
+    
 
 }
 
