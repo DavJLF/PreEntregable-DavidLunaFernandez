@@ -1,0 +1,13 @@
+/*font-family: 'Shadows Into Light', cursive; estilo de letra a usar*/
+/*desktop
+@media only screen and (min-width:978px) { aplicar todo el CSS. 
+    .letra-letra{
+        background-color: $yellow;
+    }
+}*/
+@import "partials/variables.scss";
+@import "partials/index.scss";
+@import "partials/tienda";
+@import "partials/footer";
+@import "partials/mobile";
+

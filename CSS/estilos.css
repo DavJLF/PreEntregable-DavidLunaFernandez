@@ -1,3 +1,368 @@
+/*font-family: 'Shadows Into Light', cursive; estilo de letra a usar*/
+/*desktop
+@media only screen and (min-width:978px) { aplicar todo el CSS. 
+    .letra-letra{
+        background-color: $yellow;
+    }
+}*/
+@media only screen and (min-width: 978px) {
+  .letra-letra {
+    background-color: rgb(255, 243, 218);
+    font-family: "Anton", sans-serif;
+    font-size: 16px;
+  }
+}
+header {
+  position: sticky;
+}
+header nav div a img {
+  height: 8rem;
+  width: 15rem;
+}
+header nav div div div .nav-link {
+  font-size: 2rem;
+}
 
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(69, 255, 202);
+  height: 7rem;
+  width: 100%;
+}
+.data a img {
+  height: 5rem;
+  width: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40rem 40rem;
+  grid-template-rows: 22.5rem 22.5rem;
+  justify-content: center;
+}
+.grid-container .dos {
+  display: flex;
+  grid-row: 1/span 2;
+}
+.grid-container .dos div div div {
+  text-align: center;
+  background-color: #e6e6e6;
+  font-size: 2rem;
+}
+.grid-container .dos div div div img {
+  margin: 1rem;
+  max-width: 30rem;
+}
+.grid-container .tres {
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-top: 5rem;
+}
+.grid-container .cuatro {
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-top: 5rem;
+}
+
+.x {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  height: 7rem;
+  background-color: rgb(69, 255, 202);
+}
+.x nav ul {
+  list-style: none;
+  display: flex;
+  height: 7rem;
+  width: 100%;
+  justify-content: center;
+}
+.x nav ul li a img {
+  padding: 1rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+section .text .hero {
+  min-height: 10rem;
+  display: flex;
+  align-items: flex-start;
+}
+section .text .hero .design {
+  display: flex;
+  font-size: 6rem;
+  justify-content: center;
+  font-weight: 1000;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  background-image: url(/imag/stock-vector-cat-paw-dog-paw-kitten-vector-seamless-pattern-wallpaper-background-1567436563.jpg);
+  background-size: cover;
+  background-position-y: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+section .text .caption {
+  font-size: 1.5rem;
+  text-align: center;
+}
+section .text .caption .delay {
+  animation-delay: 1s;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 2rem;
+}
+.form div div {
+  border: black solid;
+}
+.form div div div img {
+  height: 30rem;
+}
+.form div p {
+  margin: 1rem;
+  animation-delay: 3s;
+}
+
+.fot {
+  display: flex;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25rem;
+  margin: 2rem;
+  justify-content: space-around;
+  background-color: rgb(255, 243, 218);
+  border-radius: 1rem;
+}
+.fot .coment {
+  display: flex;
+}
+.fot .coment textarea {
+  height: 15rem;
+  width: 50rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.fot .coment button {
+  background: rgb(255, 243, 218);
+  font-family: inherit;
+  padding: 0.6rem 1.3rem;
+  font-weight: 900;
+  font-size: 1.25rem;
+  border: 0.3rem solid black;
+  border-radius: 0.4rem;
+  box-shadow: 0.1rem 0.1rem;
+  display: flex;
+}
+.fot .coment .button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+.fot .coment .button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+.fot .coment div iframe {
+  display: flex;
+  border-radius: 1rem;
+}
+
+.contenido {
+  height: 30rem;
+  width: 100%;
+  display: flex;
+}
+.contenido .mostrador {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 90rem;
+  transition: 0.5s ease;
+  justify-content: space-between;
+}
+.contenido .mostrador .fila {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contenido .mostrador .fila .item {
+  width: 13rem;
+  padding: 0.5rem;
+  height: 1rem;
+  text-align: center;
+  margin: 0 0.5rem;
+  border-radius: 1.5rem;
+}
+.contenido .mostrador .fila .item .contenedor-foto {
+  background-color: #e6e6e6;
+  border-radius: 0.5rem;
+  border: 0.5rem #e6e6e6 solid;
+  height: 25rem;
+  width: 22rem;
+  box-shadow: 1rem 1rem;
+}
+.contenido .mostrador .fila .item .contenedor-foto .foto {
+  height: 15rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+}
+.contenido .mostrador .fila .item .contenedor-foto .descripcion {
+  color: #707070;
+  font-weight: bold;
+}
+.contenido .mostrador .fila .item .contenedor-foto img {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+footer div p {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: rgb(69, 255, 202);
+}
+footer div h2 {
+  color: #707070;
+  text-align: center;
+  text-decoration-line: underline;
+  font-family: "Borel";
+}
+
+@media only screen and (max-width: 480px) {
+  .letra-letra {
+    background-color: rgb(223, 204, 251);
+    font-size: 8rem;
+    padding: 10px;
+  }
+  .data {
+    flex-direction: column;
+    height: 17rem;
+  }
+  .data a img {
+    margin: 1rem;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .grid-container .dos div div div img {
+    margin: 0;
+  }
+  .x {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    height: 7rem;
+    background-color: rgb(69, 255, 202);
+  }
+  .x nav ul {
+    list-style: none;
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    justify-content: center;
+  }
+  .x nav ul li a img {
+    padding: 1rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  section .text .hero {
+    min-height: 10rem;
+    display: flex;
+    align-items: flex-start;
+  }
+  section .text .hero .design {
+    display: flex;
+    font-size: 6rem;
+    justify-content: center;
+    font-weight: 1000;
+    width: 100%;
+  }
+  section .text .caption {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+  .form div div {
+    border: black solid;
+  }
+  .form div div div img {
+    height: 30rem;
+  }
+  .form div p {
+    margin: 1rem;
+    animation-delay: 3s;
+    font-size: 1.5rem;
+  }
+  .fot {
+    margin: 1rem 0rem;
+    background-color: rgb(255, 243, 218);
+    border-radius: 1rem;
+  }
+  .fot .coment {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+  }
+  .fot .coment textarea {
+    height: 15rem;
+    width: 27rem;
+    margin: 1rem;
+    border-radius: 1rem;
+  }
+  .fot .coment button {
+    background: rgb(255, 243, 218);
+    font-family: inherit;
+    padding: 0.6rem 1.3rem;
+    font-weight: 900;
+    font-size: 1.25rem;
+    border: 0.3rem solid black;
+    border-radius: 0.4rem;
+    box-shadow: 0.1rem 0.1rem;
+    display: flex;
+  }
+  .fot .coment div iframe {
+    margin-bottom: 1rem;
+  }
+  .contenido {
+    height: 130rem;
+    width: 22rem;
+    display: flex;
+  }
+  .contenido .mostrador .fila {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100rem;
+  }
+  .contenido .mostrador .fila .item {
+    display: flex;
+    margin: 3rem;
+  }
+  .contenido .mostrador .fila .item .contenedor-foto {
+    height: 25rem;
+    width: 22rem;
+    box-shadow: 1rem 1rem;
+    font-size: 1.5rem;
+  }
+  .contenido .mostrador .fila .item .contenedor-foto .foto {
+    height: 15rem;
+    width: 20rem;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */

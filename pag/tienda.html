@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <!--prueba de animacion1-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
 <body class="letra-letra">
     <!--navegables (inicio, etc.)-->
@@ -25,20 +27,87 @@
                     </div>
                 </div>   
             </div>
-        </nav> 
-    </header> 
-    <section>
-        <div><!-- poner redes y whatsapp-->
-            <nav>  
-                <ul class="socialmedia">
-                    <li><a href="https://es-la.facebook.com/"><img src="../imag/logo-de-facebook.jpg" alt="facebook" class="face-ints"></a></li>    
-                    <li><a href="https://www.instagram.com/"><img src="../imag/instagram.jpg" alt="instagram" class="face-ints"></a></li>   
-                    <li><a href="https://www.whatsapp.com/?lang=es_LA"><img src="../imag/md_5af2d4c95ac7b.jpg" alt="whatsapp" class="face-ints"></a></li>
-                </ul>    
-            </nav>
+        </nav>
+    </header>
+    <div>
+    <section class="contenido"><!--productos-->
+        <div class="mostrador">
+            <div class="fila">
+                <div class="item one">
+                    <div class="contenedor-foto">
+                        <img class="foto animate__animated animate__slideInUp" src="/imag/Pedigree-cachorro.jpg" alt="">
+                        <p class="descripcion">Pedigree 2</p>
+                        <span class="precio"> $2.000</span>
+                    </div>
+                </div>
+                <div class="item two">
+                    <div class="contenedor-foto">
+                        <img class="foto animate__animated animate__slideInDown" src="/imag/Pedigree-adulto.jpg" alt="">
+                        <p class="descripcion">Pedigree 3</p>
+                        <span class="precio"> $2.000</span>
+                    </div>
+                </div>
+                <div class="item 3">
+                    <div class="contenedor-foto">
+                        <img class="foto animate__animated animate__slideInUp" src="/imag/Pedigree-Senior.jpg" alt="">
+                        <p class="descripcion">Pedigree 4</p>
+                        <span class="precio"> $2.000</span>
+                    </div>
+                </div>
+                <div class="item 4">
+                    <div class="contenedor-foto">
+                        <img class="foto animate__animated animate__slideInDown" src="/imag/dog-chow-cachorros-minis-y-pequenos_178" alt="">
+                        <p class="descripcion">Pedigree 4</p>
+                        <span class="precio"> $2.000</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <footer>    
+    <section class="contenido">
+        <div class="mostrador">
+            <div class="fila">
+                <div class="item 5">
+                    <div class="contenedor-foto">
+                        <img class="foto animate__animated animate__slideInUp" src="/imag/dog-chow-cachorros-medianas-y-grandes_178.jpg" alt="">
+                        <p class="descripcion">Pedigree 2</p>
+                        <span class="precio"> $2.000</span>
+                    </div>
+                </div>
+                <div class="item 6">
+                    <div class="contenedor-foto">
+                        <img class="foto animate__animated animate__slideInDown" src="/imag/puppy-raza-med-63212f0b735dc.jpg" alt="">
+                        <p class="descripcion">Pedigree 3</p>
+                        <span class="precio"> $2.000</span>
+                    </div>
+                </div>
+                <div class="item 7">
+                    <div class="contenedor-foto">
+                        <img class="foto animate__animated animate__slideInUp" src="/imag/gatitos-cachorros.jpg" alt="">
+                        <p class="descripcion">Pedigree 4</p>
+                        <span class="precio"> $2.000</span>
+                    </div>
+                </div>
+                <div class="item 8">
+                    <div class="contenedor-foto">
+                        <img class="foto animate__animated animate__slideInDown" src="/imag/gatitos-adulto.jpg" alt="">
+                        <p class="descripcion">Pedigree 4</p>
+                        <span class="precio"> $2.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="x"><!-- poner redes y whatsapp--> 
+        <nav> 
+            <ul class="socialmedia">
+                <li><a href="https://es-la.facebook.com/"><img src="/imag/facebook.svg" alt="facebook" class="faceintswhats"></a></li>    
+                <li><a href="https://www.instagram.com/"><img src="/imag/instagram.svg" alt="instagram" class="faceintswhats"></a></li>   
+                <li><a href="https://web.whatsapp.com/"><img src="/imag/whatsapp.svg" alt="whatsapp" class="faceintswhats"></a></li> 
+            </ul>    
+        </nav>
+    </section>
+    <footer class="x">    
         <div>
             <p class="escrito">
             <strong>"En la mayoría de los casos, 
@@ -51,10 +120,11 @@
             que necesita va a ayudarlo a que 
             recupere su confianza y su autoestima".
             </p>
-        <h2 class="subt1">
+            <h2 class="subt1">
             Pet shop S.A.
-        </h2>
+            </h2>
         </div>       
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
