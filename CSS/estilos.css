@@ -102,7 +102,7 @@ section .text .hero .design {
   width: 100%;
   color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  background-image: url(/imag/stock-vector-cat-paw-dog-paw-kitten-vector-seamless-pattern-wallpaper-background-1567436563.jpg);
+  background-image: url(../imag/stock-vector-cat-paw-dog-paw-kitten-vector-seamless-pattern-wallpaper-background-1567436563.jpg);
   background-size: cover;
   background-position-y: center;
   background-clip: text;
