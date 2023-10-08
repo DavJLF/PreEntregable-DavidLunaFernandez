@@ -237,24 +237,39 @@ footer div h2 {
   .letra-letra {
     background-color: rgb(255, 207, 150);
     font-family: "Anton", sans-serif;
-    font-size: 16px;
+    font-size: 12px;
   }
   .data {
-    flex-direction: column;
-    height: 17rem;
+    height: 10rem;
   }
   .data a img {
+    height: 8rem;
+    width: 8rem;
     margin: 1rem;
   }
   .grid-container {
+    display: grid;
+    grid-template-columns: 35rem 20rem;
+    grid-template-rows: 22.5rem 22.5rem;
+    justify-content: center;
+  }
+  .grid-container .dos {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    margin-bottom: 1rem;
+    grid-row: 1/span 2;
+  }
+  .grid-container .dos div div div {
+    text-align: center;
+    background-color: #e6e6e6;
+    font-size: 2rem;
   }
   .grid-container .dos div div div img {
-    margin: 0;
+    max-width: 30rem;
+  }
+  .grid-container .tres {
+    font-size: 1.5rem;
+  }
+  .grid-container .cuatro {
+    font-size: 1.5rem;
   }
   .x {
     font-size: 1.5rem;
@@ -277,12 +292,11 @@ footer div h2 {
   }
   section .text .hero {
     min-height: 10rem;
-    display: flex;
-    align-items: flex-start;
+    align-items: center;
   }
   section .text .hero .design {
     display: flex;
-    font-size: 6rem;
+    font-size: 5rem;
     justify-content: center;
     font-weight: 1000;
     width: 100%;
@@ -294,13 +308,14 @@ footer div h2 {
   .form {
     display: flex;
     flex-direction: column;
-    margin: 2rem;
+    margin: 1rem;
   }
   .form div div {
     border: black solid;
   }
   .form div div div img {
     height: 30rem;
+    width: 100%;
   }
   .form div p {
     margin: 1rem;
@@ -320,7 +335,7 @@ footer div h2 {
   }
   .fot .coment textarea {
     height: 15rem;
-    width: 27rem;
+    width: 55rem;
     margin: 1rem;
     border-radius: 1rem;
   }
@@ -334,34 +349,34 @@ footer div h2 {
     border-radius: 0.4rem;
     box-shadow: 0.1rem 0.1rem;
     display: flex;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
   }
   .fot .coment div iframe {
     margin-bottom: 1rem;
+    height: 15rem;
+    width: 55rem;
   }
   .contenido {
-    height: 130rem;
-    width: 22rem;
     display: flex;
   }
   .contenido .mostrador .fila {
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    height: 100rem;
+    height: 30rem;
   }
   .contenido .mostrador .fila .item {
     display: flex;
-    margin: 3rem;
+    margin: 1rem;
   }
   .contenido .mostrador .fila .item .contenedor-foto {
-    height: 25rem;
-    width: 22rem;
+    height: 17rem;
+    width: 12rem;
     box-shadow: 1rem 1rem;
     font-size: 1.5rem;
   }
   .contenido .mostrador .fila .item .contenedor-foto .foto {
-    height: 15rem;
-    width: 20rem;
+    height: 10rem;
+    width: 8rem;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -371,7 +386,6 @@ footer div h2 {
     padding: 10px;
   }
   .data {
-    flex-direction: column;
     height: 17rem;
   }
   .data a img {
@@ -451,7 +465,7 @@ footer div h2 {
   }
   .fot .coment textarea {
     height: 15rem;
-    width: 27rem;
+    width: 25rem;
     margin: 1rem;
     border-radius: 1rem;
   }
@@ -465,6 +479,8 @@ footer div h2 {
     border-radius: 0.4rem;
     box-shadow: 0.1rem 0.1rem;
     display: flex;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
   }
   .fot .coment div iframe {
     margin-bottom: 1rem;
